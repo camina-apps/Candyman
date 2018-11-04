@@ -62,9 +62,9 @@ class StringExtensionTests: XCTestCase {
         XCTAssertFalse("notHex323".matches(Regex.Number.pattern))
     }
 
-    func testIsIPAdress() {
-        XCTAssert("127.0.0.1".matches(Regex.IPAdress.pattern), "not detecting IP Address")
-        XCTAssertFalse("187.399.449.939".matches(Regex.IPAdress.pattern))
+    func testIsIPAddress() {
+        XCTAssert("127.0.0.1".matches(Regex.IPAddress.pattern), "not detecting IP Address")
+        XCTAssertFalse("187.399.449.939".matches(Regex.IPAddress.pattern))
     }
 
     func testIsHTMLTag() {
