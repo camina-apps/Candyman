@@ -1,2 +1,5 @@
+
 # Candyman
-Collection of useful extensions and protocols  
+![Header](Header.jpg)
+
+## Collection of sweet extensions, protocols and helpers
