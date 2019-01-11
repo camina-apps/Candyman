@@ -12,7 +12,7 @@ public extension Locale {
 
     /// The country code for the locale.
     /// Examples of country codes include "GB", "FR", and "HK".
-    public var countryCode: String? {
+    var countryCode: String? {
         return (self as NSLocale).countryCode
     }
 

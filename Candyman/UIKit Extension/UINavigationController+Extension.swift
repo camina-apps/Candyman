@@ -10,7 +10,7 @@ import UIKit
 
 public extension UINavigationController {
 
-    public func replaceTopViewController(with viewController: UIViewController, animated: Bool) {
+    func replaceTopViewController(with viewController: UIViewController, animated: Bool) {
         if viewControllers.isEmpty {
             setViewControllers([viewController], animated: animated)
         } else {
@@ -20,7 +20,7 @@ public extension UINavigationController {
         }
     }
 
-    public var rootViewController: UIViewController? {
+    var rootViewController: UIViewController? {
         return viewControllers.first
     }
 

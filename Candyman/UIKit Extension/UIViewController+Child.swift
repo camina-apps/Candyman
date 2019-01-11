@@ -10,7 +10,7 @@ import UIKit
 public extension UIViewController {
 
     /// Adds the specified view controller as a child of the current view controller and adds its view as a subview to the containerView.
-    public func addChild(_ child: UIViewController, containerView: UIView) {
+    func addChild(_ child: UIViewController, containerView: UIView) {
         addChild(child)
         child.view.frame = containerView.bounds
         containerView.addSubview(child.view)
@@ -19,7 +19,7 @@ public extension UIViewController {
     }
 
     /// Removes the view controller from its parent and unlinks the view from its superview and its window, and removes it from the responder chain.
-    public func removeFromContainer() {
+    func removeFromContainer() {
         guard parent != nil else { return }
         willMove(toParent: nil)
         view.removeFromSuperview()
@@ -27,7 +27,7 @@ public extension UIViewController {
     }
 
     /// Replace with new view controller and removes the old view controller
-    public func replace(_ oldViewController: UIViewController, with newViewController: UIViewController, animated: Bool) {
+    func replace(_ oldViewController: UIViewController, with newViewController: UIViewController, animated: Bool) {
         guard let containerView = oldViewController.view.superview else { return }
         addChild(newViewController, containerView: containerView)
 

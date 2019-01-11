@@ -1,5 +1,5 @@
 //
-//  String+Extension.swift
+//  String+Formatting.swift
 //  Candyman
 //
 //  Created by Carmen Probst on 27.10.18.
@@ -10,20 +10,20 @@ import Foundation
 
 public extension String {
 
-    public var isEmptyOrWhiteSpace: Bool {
+    var isEmptyOrWhiteSpace: Bool {
         return trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).isEmpty
     }
 
-    public mutating func trim() {
+    mutating func trim() {
         self = trimmingCharacters(in: .whitespacesAndNewlines)
     }
 
-    public func uppercasedFirstLetter() -> String {
+    func uppercasedFirstLetter() -> String {
         guard let first = first else { return "" }
         return String(first).uppercased() + dropFirst()
     }
 
-    public mutating func uppercaseFirstLetter() {
+    mutating func uppercaseFirstLetter() {
         self = uppercasedFirstLetter()
     }
 }

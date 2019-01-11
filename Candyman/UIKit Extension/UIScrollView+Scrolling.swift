@@ -10,17 +10,17 @@ import UIKit
 
 public extension UIScrollView {
 
-    public func scrollToTop(animated: Bool) {
+    func scrollToTop(animated: Bool = true) {
         setContentOffset(.zero, animated: animated)
     }
 
-    public func scrollToBottom(animated: Bool) {
+    func scrollToBottom(animated: Bool = true) {
         let bottomOffset = CGPoint(x: 0, y: contentSize.height - bounds.size.height + contentInset.bottom)
         guard bottomOffset.y > 0 else { return }
         setContentOffset(bottomOffset, animated: animated)
     }
 
-    public func scrollTo(view: UIView, animated: Bool) {
+    func scrollTo(view: UIView, animated: Bool = true) {
         guard let origin = view.superview else { return }
         let childStartPoint = origin.convert(view.frame.origin, to: self)
         let rect = CGRect(x: 0, y: childStartPoint.y, width: 1, height: self.frame.height)

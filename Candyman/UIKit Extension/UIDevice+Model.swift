@@ -10,12 +10,17 @@ import UIKit
 
 public extension UIDevice {
 
-    public static func isPhone() -> Bool {
+    class var isPhone: Bool {
         return UIDevice().userInterfaceIdiom == .phone
     }
 
-    public static func isPad() -> Bool {
+    class var  isPad: Bool {
         return UIDevice().userInterfaceIdiom == .pad
+    }
+    
+    /// An alphanumeric string that uniquely identifies a device to the app’s vendor
+    class var idForVendor: String? {
+        return UIDevice.current.identifierForVendor?.uuidString
     }
 
 }

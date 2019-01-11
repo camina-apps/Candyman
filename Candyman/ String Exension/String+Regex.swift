@@ -22,7 +22,7 @@ public enum Regex: String {
 
 public extension String {
 
-    public func matches(_ pattern: String) -> Bool {
+    func matches(_ pattern: String) -> Bool {
         let predicate = NSPredicate(format: "SELF MATCHES[c] %@", pattern)
         return predicate.evaluate(with: self)
     }
