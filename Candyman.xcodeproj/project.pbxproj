@@ -33,6 +33,9 @@
 		1AF2732D21E54DE9005DA9D6 /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2732C21E54DE9005DA9D6 /* UITextView+Extension.swift */; };
 		1AF2732F21E54E5F005DA9D6 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2732E21E54E5F005DA9D6 /* UITextField+Extension.swift */; };
 		1AF2733121E55099005DA9D6 /* UITableView+Reuseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2733021E55099005DA9D6 /* UITableView+Reuseable.swift */; };
+		1AF2733321E60EFA005DA9D6 /* UIButton+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2733221E60EFA005DA9D6 /* UIButton+Title.swift */; };
+		1AF2733521E610A9005DA9D6 /* UIStackView+Subview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2733421E610A9005DA9D6 /* UIStackView+Subview.swift */; };
+		1AF2733721E613D5005DA9D6 /* UIGestureRecognizer+Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2733621E613D5005DA9D6 /* UIGestureRecognizer+Remove.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,9 @@
 		1AF2732C21E54DE9005DA9D6 /* UITextView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
 		1AF2732E21E54E5F005DA9D6 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		1AF2733021E55099005DA9D6 /* UITableView+Reuseable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Reuseable.swift"; sourceTree = "<group>"; };
+		1AF2733221E60EFA005DA9D6 /* UIButton+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Title.swift"; sourceTree = "<group>"; };
+		1AF2733421E610A9005DA9D6 /* UIStackView+Subview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Subview.swift"; sourceTree = "<group>"; };
+		1AF2733621E613D5005DA9D6 /* UIGestureRecognizer+Remove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIGestureRecognizer+Remove.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +173,9 @@
 				1A43761F21DFFD3000C6A52B /* UIView+Inspectable.swift */,
 				1AF2732C21E54DE9005DA9D6 /* UITextView+Extension.swift */,
 				1AF2732E21E54E5F005DA9D6 /* UITextField+Extension.swift */,
+				1AF2733221E60EFA005DA9D6 /* UIButton+Title.swift */,
+				1AF2733421E610A9005DA9D6 /* UIStackView+Subview.swift */,
+				1AF2733621E613D5005DA9D6 /* UIGestureRecognizer+Remove.swift */,
 			);
 			path = "UIKit Extension";
 			sourceTree = "<group>";
@@ -282,14 +291,17 @@
 			files = (
 				1A72067B2185C8A600D8D474 /* Injectable.swift in Sources */,
 				1A43762021DFFD3000C6A52B /* UIView+Inspectable.swift in Sources */,
+				1AF2733721E613D5005DA9D6 /* UIGestureRecognizer+Remove.swift in Sources */,
 				1A7206692184E11E00D8D474 /* Result.swift in Sources */,
 				1A43761E21DFFC9100C6A52B /* UIView+Animation.swift in Sources */,
+				1AF2733521E610A9005DA9D6 /* UIStackView+Subview.swift in Sources */,
 				1A7206812185CE8B00D8D474 /* Locale+Extension.swift in Sources */,
 				1AF2732F21E54E5F005DA9D6 /* UITextField+Extension.swift in Sources */,
 				1AF2733121E55099005DA9D6 /* UITableView+Reuseable.swift in Sources */,
 				1A43762221E0017E00C6A52B /* UIScreen+Size.swift in Sources */,
 				1AF2732D21E54DE9005DA9D6 /* UITextView+Extension.swift in Sources */,
 				1A7206712185084900D8D474 /* UIScrollView+Scrolling.swift in Sources */,
+				1AF2733321E60EFA005DA9D6 /* UIButton+Title.swift in Sources */,
 				1A7206672184DD8E00D8D474 /* AppInfo.swift in Sources */,
 				1A43762421E002B100C6A52B /* UILabel+Extension.swift in Sources */,
 				1A72067521850A2000D8D474 /* UIViewController+Child.swift in Sources */,

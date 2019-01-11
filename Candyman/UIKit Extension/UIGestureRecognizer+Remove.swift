@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+public extension UIGestureRecognizer {
+    
+    /// Remove Gesture Recognizer from its view.
+    func removeFromView() {
+        view?.removeGestureRecognizer(self)
+    }
+    
+}

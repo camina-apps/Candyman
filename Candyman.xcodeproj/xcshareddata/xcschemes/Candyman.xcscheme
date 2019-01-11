@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1A7206862185F4A700D8D474"
+               BuildableName = "CandymanTests.xctest"
+               BlueprintName = "CandymanTests"
+               ReferencedContainer = "container:Candyman.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1A72065A2184DC1B00D8D474"
+            BuildableName = "Candyman.framework"
+            BlueprintName = "Candyman"
+            ReferencedContainer = "container:Candyman.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
