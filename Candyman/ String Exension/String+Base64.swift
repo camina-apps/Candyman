@@ -10,7 +10,7 @@ public extension String {
 
     func fromBase64() -> String? {
         guard let data = Data(base64Encoded: self) else { return nil }
-        return String(data: data, encoding: .utf8)
+        return String(decoding: data, as: UTF8.self)
     }
 
     func toBase64() -> String {
