@@ -32,7 +32,7 @@
 		1AEAF386235C81850015D207 /* Data+DeviceToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAF385235C81850015D207 /* Data+DeviceToken.swift */; };
 		1AEAF3A9235C8AFF0015D207 /* TypedNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAF3A8235C8AFF0015D207 /* TypedNotifications.swift */; };
 		1AEAF3AB235C8D680015D207 /* BaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAF3AA235C8D680015D207 /* BaseOperation.swift */; };
-		1AEAF3AE235C8E660015D207 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAF3AD235C8E660015D207 /* PersistenceManager.swift */; };
+		1AEAF3AE235C8E660015D207 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAF3AD235C8E660015D207 /* CoreDataStack.swift */; };
 		1AF2732D21E54DE9005DA9D6 /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2732C21E54DE9005DA9D6 /* UITextView+Extension.swift */; };
 		1AF2732F21E54E5F005DA9D6 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2732E21E54E5F005DA9D6 /* UITextField+Extension.swift */; };
 		1AF2733121E55099005DA9D6 /* UITableView+Reuseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2733021E55099005DA9D6 /* UITableView+Reuseable.swift */; };
@@ -80,7 +80,7 @@
 		1AEAF385235C81850015D207 /* Data+DeviceToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+DeviceToken.swift"; sourceTree = "<group>"; };
 		1AEAF3A8235C8AFF0015D207 /* TypedNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypedNotifications.swift; sourceTree = "<group>"; };
 		1AEAF3AA235C8D680015D207 /* BaseOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseOperation.swift; sourceTree = "<group>"; };
-		1AEAF3AD235C8E660015D207 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		1AEAF3AD235C8E660015D207 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		1AF2732C21E54DE9005DA9D6 /* UITextView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
 		1AF2732E21E54E5F005DA9D6 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		1AF2733021E55099005DA9D6 /* UITableView+Reuseable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Reuseable.swift"; sourceTree = "<group>"; };
@@ -192,7 +192,7 @@
 		1AEAF3AC235C8E570015D207 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				1AEAF3AD235C8E660015D207 /* PersistenceManager.swift */,
+				1AEAF3AD235C8E660015D207 /* CoreDataStack.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -324,7 +324,7 @@
 				1AEAF386235C81850015D207 /* Data+DeviceToken.swift in Sources */,
 				1A43762421E002B100C6A52B /* UILabel+Extension.swift in Sources */,
 				1A72067521850A2000D8D474 /* UIViewController+Child.swift in Sources */,
-				1AEAF3AE235C8E660015D207 /* PersistenceManager.swift in Sources */,
+				1AEAF3AE235C8E660015D207 /* CoreDataStack.swift in Sources */,
 				1A72066B2184E2EC00D8D474 /* String+Regex.swift in Sources */,
 				1A7206792185C2DF00D8D474 /* StoryboardInitializable.swift in Sources */,
 				1A43761C21DFFB0500C6A52B /* UIView+Extension.swift in Sources */,
