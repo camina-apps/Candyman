@@ -24,7 +24,7 @@ public extension UIView {
     ///   - color: Border color
     ///   - radius: Border radius
     ///   - width: Border width
-    public func border(color: UIColor, radius: CGFloat, width: CGFloat) {
+    func border(color: UIColor, radius: CGFloat, width: CGFloat) {
         layer.borderWidth = width
         layer.cornerRadius = radius
         layer.shouldRasterize = false
