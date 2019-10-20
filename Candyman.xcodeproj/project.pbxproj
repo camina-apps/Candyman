@@ -31,6 +31,7 @@
 		1A720699218605F700D8D474 /* NavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A720698218605F700D8D474 /* NavigationControllerTests.swift */; };
 		1AEAF386235C81850015D207 /* Data+DeviceToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAF385235C81850015D207 /* Data+DeviceToken.swift */; };
 		1AEAF3A9235C8AFF0015D207 /* TypedNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAF3A8235C8AFF0015D207 /* TypedNotifications.swift */; };
+		1AEAF3AB235C8D680015D207 /* BaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAF3AA235C8D680015D207 /* BaseOperation.swift */; };
 		1AF2732D21E54DE9005DA9D6 /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2732C21E54DE9005DA9D6 /* UITextView+Extension.swift */; };
 		1AF2732F21E54E5F005DA9D6 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2732E21E54E5F005DA9D6 /* UITextField+Extension.swift */; };
 		1AF2733121E55099005DA9D6 /* UITableView+Reuseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2733021E55099005DA9D6 /* UITableView+Reuseable.swift */; };
@@ -77,6 +78,7 @@
 		1A720698218605F700D8D474 /* NavigationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerTests.swift; sourceTree = "<group>"; };
 		1AEAF385235C81850015D207 /* Data+DeviceToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+DeviceToken.swift"; sourceTree = "<group>"; };
 		1AEAF3A8235C8AFF0015D207 /* TypedNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypedNotifications.swift; sourceTree = "<group>"; };
+		1AEAF3AA235C8D680015D207 /* BaseOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseOperation.swift; sourceTree = "<group>"; };
 		1AF2732C21E54DE9005DA9D6 /* UITextView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
 		1AF2732E21E54E5F005DA9D6 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		1AF2733021E55099005DA9D6 /* UITableView+Reuseable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Reuseable.swift"; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				1A72065E2184DC1C00D8D474 /* Candyman.h */,
 				1A72065F2184DC1C00D8D474 /* Info.plist */,
 				1A7206662184DD8E00D8D474 /* AppInfo.swift */,
+				1AEAF3AA235C8D680015D207 /* BaseOperation.swift */,
 				1A72067A2185C8A600D8D474 /* Injectable.swift */,
 				1AEAF385235C81850015D207 /* Data+DeviceToken.swift */,
 				1A72066C2184FD6F00D8D474 /* Date+Components.swift */,
@@ -316,6 +319,7 @@
 				1A72066F218501B100D8D474 /* String+Formatting.swift in Sources */,
 				1A72066D2184FD6F00D8D474 /* Date+Components.swift in Sources */,
 				1AEAF3A9235C8AFF0015D207 /* TypedNotifications.swift in Sources */,
+				1AEAF3AB235C8D680015D207 /* BaseOperation.swift in Sources */,
 				1A72067F2185CD2600D8D474 /* String+Base64.swift in Sources */,
 				1A720673218508E200D8D474 /* UIDevice+Model.swift in Sources */,
 				1A72067D2185CA2900D8D474 /* UINavigationController+Extension.swift in Sources */,
