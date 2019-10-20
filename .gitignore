@@ -68,3 +68,4 @@ fastlane/screenshots/**/*.png
 fastlane/test_output
 Candyman.xcodeproj/project.xcworkspace/xcuserdata
 .DS_Store
+*.xcuserstate

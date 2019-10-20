@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A0DD7CE235CB00B00B2EFEB /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0DD7CD235CB00B00B2EFEB /* Shared.swift */; };
 		1A43761C21DFFB0500C6A52B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A43761B21DFFB0500C6A52B /* UIView+Extension.swift */; };
 		1A43761E21DFFC9100C6A52B /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A43761D21DFFC9100C6A52B /* UIView+Animation.swift */; };
 		1A43762021DFFD3000C6A52B /* UIView+Inspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A43761F21DFFD3000C6A52B /* UIView+Inspectable.swift */; };
@@ -29,6 +30,10 @@
 		1A7206932185F4FE00D8D474 /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7206922185F4FE00D8D474 /* StringExtensionTests.swift */; };
 		1A7206972186021700D8D474 /* ChildViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7206962186021700D8D474 /* ChildViewControllerTests.swift */; };
 		1A720699218605F700D8D474 /* NavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A720698218605F700D8D474 /* NavigationControllerTests.swift */; };
+		1AEAF386235C81850015D207 /* Data+DeviceToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAF385235C81850015D207 /* Data+DeviceToken.swift */; };
+		1AEAF3A9235C8AFF0015D207 /* TypedNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAF3A8235C8AFF0015D207 /* TypedNotifications.swift */; };
+		1AEAF3AB235C8D680015D207 /* BaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAF3AA235C8D680015D207 /* BaseOperation.swift */; };
+		1AEAF3AE235C8E660015D207 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAF3AD235C8E660015D207 /* CoreDataStack.swift */; };
 		1AF2732D21E54DE9005DA9D6 /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2732C21E54DE9005DA9D6 /* UITextView+Extension.swift */; };
 		1AF2732F21E54E5F005DA9D6 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2732E21E54E5F005DA9D6 /* UITextField+Extension.swift */; };
 		1AF2733121E55099005DA9D6 /* UITableView+Reuseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2733021E55099005DA9D6 /* UITableView+Reuseable.swift */; };
@@ -48,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A0DD7CD235CB00B00B2EFEB /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
 		1A43761B21DFFB0500C6A52B /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		1A43761D21DFFC9100C6A52B /* UIView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
 		1A43761F21DFFD3000C6A52B /* UIView+Inspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Inspectable.swift"; sourceTree = "<group>"; };
@@ -73,6 +79,10 @@
 		1A7206922185F4FE00D8D474 /* StringExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionTests.swift; sourceTree = "<group>"; };
 		1A7206962186021700D8D474 /* ChildViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewControllerTests.swift; sourceTree = "<group>"; };
 		1A720698218605F700D8D474 /* NavigationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerTests.swift; sourceTree = "<group>"; };
+		1AEAF385235C81850015D207 /* Data+DeviceToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+DeviceToken.swift"; sourceTree = "<group>"; };
+		1AEAF3A8235C8AFF0015D207 /* TypedNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypedNotifications.swift; sourceTree = "<group>"; };
+		1AEAF3AA235C8D680015D207 /* BaseOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseOperation.swift; sourceTree = "<group>"; };
+		1AEAF3AD235C8E660015D207 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		1AF2732C21E54DE9005DA9D6 /* UITextView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
 		1AF2732E21E54E5F005DA9D6 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		1AF2733021E55099005DA9D6 /* UITableView+Reuseable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Reuseable.swift"; sourceTree = "<group>"; };
@@ -124,23 +134,28 @@
 				1A72065E2184DC1C00D8D474 /* Candyman.h */,
 				1A72065F2184DC1C00D8D474 /* Info.plist */,
 				1A7206662184DD8E00D8D474 /* AppInfo.swift */,
+				1AEAF3AA235C8D680015D207 /* BaseOperation.swift */,
 				1A72067A2185C8A600D8D474 /* Injectable.swift */,
+				1AEAF385235C81850015D207 /* Data+DeviceToken.swift */,
 				1A72066C2184FD6F00D8D474 /* Date+Components.swift */,
 				1A7206802185CE8B00D8D474 /* Locale+Extension.swift */,
+				1AEAF3A8235C8AFF0015D207 /* TypedNotifications.swift */,
+				1A0DD7CD235CB00B00B2EFEB /* Shared.swift */,
+				1AEAF3AC235C8E570015D207 /* CoreData */,
+				1A7206822185D86700D8D474 /* String Exension */,
 				1A72069A21860E7600D8D474 /* UIKit Extension */,
-				1A7206822185D86700D8D474 /*  String Exension */,
 			);
 			path = Candyman;
 			sourceTree = "<group>";
 		};
-		1A7206822185D86700D8D474 /*  String Exension */ = {
+		1A7206822185D86700D8D474 /* String Exension */ = {
 			isa = PBXGroup;
 			children = (
-				1A72066A2184E2EC00D8D474 /* String+Regex.swift */,
-				1A72066E218501B100D8D474 /* String+Formatting.swift */,
 				1A72067E2185CD2600D8D474 /* String+Base64.swift */,
+				1A72066E218501B100D8D474 /* String+Formatting.swift */,
+				1A72066A2184E2EC00D8D474 /* String+Regex.swift */,
 			);
-			path = " String Exension";
+			path = "String Exension";
 			sourceTree = "<group>";
 		};
 		1A7206882185F4A700D8D474 /* CandymanTests */ = {
@@ -158,23 +173,31 @@
 			isa = PBXGroup;
 			children = (
 				1A7206782185C2DF00D8D474 /* StoryboardInitializable.swift */,
+				1AF2733221E60EFA005DA9D6 /* UIButton+Title.swift */,
+				1A720672218508E200D8D474 /* UIDevice+Model.swift */,
+				1AF2733621E613D5005DA9D6 /* UIGestureRecognizer+Remove.swift */,
 				1A43762321E002B100C6A52B /* UILabel+Extension.swift */,
 				1A72067C2185CA2900D8D474 /* UINavigationController+Extension.swift */,
-				1A7206702185084900D8D474 /* UIScrollView+Scrolling.swift */,
-				1AF2733021E55099005DA9D6 /* UITableView+Reuseable.swift */,
 				1A43762121E0017E00C6A52B /* UIScreen+Size.swift */,
-				1A720672218508E200D8D474 /* UIDevice+Model.swift */,
-				1A72067421850A2000D8D474 /* UIViewController+Child.swift */,
-				1A43761B21DFFB0500C6A52B /* UIView+Extension.swift */,
-				1A43761D21DFFC9100C6A52B /* UIView+Animation.swift */,
-				1A43761F21DFFD3000C6A52B /* UIView+Inspectable.swift */,
-				1AF2732C21E54DE9005DA9D6 /* UITextView+Extension.swift */,
-				1AF2732E21E54E5F005DA9D6 /* UITextField+Extension.swift */,
-				1AF2733221E60EFA005DA9D6 /* UIButton+Title.swift */,
+				1A7206702185084900D8D474 /* UIScrollView+Scrolling.swift */,
 				1AF2733421E610A9005DA9D6 /* UIStackView+Subview.swift */,
-				1AF2733621E613D5005DA9D6 /* UIGestureRecognizer+Remove.swift */,
+				1AF2733021E55099005DA9D6 /* UITableView+Reuseable.swift */,
+				1AF2732E21E54E5F005DA9D6 /* UITextField+Extension.swift */,
+				1AF2732C21E54DE9005DA9D6 /* UITextView+Extension.swift */,
+				1A43761D21DFFC9100C6A52B /* UIView+Animation.swift */,
+				1A43761B21DFFB0500C6A52B /* UIView+Extension.swift */,
+				1A43761F21DFFD3000C6A52B /* UIView+Inspectable.swift */,
+				1A72067421850A2000D8D474 /* UIViewController+Child.swift */,
 			);
 			path = "UIKit Extension";
+			sourceTree = "<group>";
+		};
+		1AEAF3AC235C8E570015D207 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				1AEAF3AD235C8E660015D207 /* CoreDataStack.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,13 +324,18 @@
 				1A7206712185084900D8D474 /* UIScrollView+Scrolling.swift in Sources */,
 				1AF2733321E60EFA005DA9D6 /* UIButton+Title.swift in Sources */,
 				1A7206672184DD8E00D8D474 /* AppInfo.swift in Sources */,
+				1AEAF386235C81850015D207 /* Data+DeviceToken.swift in Sources */,
+				1A0DD7CE235CB00B00B2EFEB /* Shared.swift in Sources */,
 				1A43762421E002B100C6A52B /* UILabel+Extension.swift in Sources */,
 				1A72067521850A2000D8D474 /* UIViewController+Child.swift in Sources */,
+				1AEAF3AE235C8E660015D207 /* CoreDataStack.swift in Sources */,
 				1A72066B2184E2EC00D8D474 /* String+Regex.swift in Sources */,
 				1A7206792185C2DF00D8D474 /* StoryboardInitializable.swift in Sources */,
 				1A43761C21DFFB0500C6A52B /* UIView+Extension.swift in Sources */,
 				1A72066F218501B100D8D474 /* String+Formatting.swift in Sources */,
 				1A72066D2184FD6F00D8D474 /* Date+Components.swift in Sources */,
+				1AEAF3A9235C8AFF0015D207 /* TypedNotifications.swift in Sources */,
+				1AEAF3AB235C8D680015D207 /* BaseOperation.swift in Sources */,
 				1A72067F2185CD2600D8D474 /* String+Base64.swift in Sources */,
 				1A720673218508E200D8D474 /* UIDevice+Model.swift in Sources */,
 				1A72067D2185CA2900D8D474 /* UINavigationController+Extension.swift in Sources */,
