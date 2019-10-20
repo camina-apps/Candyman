@@ -14,7 +14,6 @@
 		1A43762421E002B100C6A52B /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A43762321E002B100C6A52B /* UILabel+Extension.swift */; };
 		1A7206602184DC1C00D8D474 /* Candyman.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A72065E2184DC1C00D8D474 /* Candyman.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A7206672184DD8E00D8D474 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7206662184DD8E00D8D474 /* AppInfo.swift */; };
-		1A7206692184E11E00D8D474 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7206682184E11E00D8D474 /* Result.swift */; };
 		1A72066B2184E2EC00D8D474 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A72066A2184E2EC00D8D474 /* String+Regex.swift */; };
 		1A72066D2184FD6F00D8D474 /* Date+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A72066C2184FD6F00D8D474 /* Date+Components.swift */; };
 		1A72066F218501B100D8D474 /* String+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A72066E218501B100D8D474 /* String+Formatting.swift */; };
@@ -58,7 +57,6 @@
 		1A72065E2184DC1C00D8D474 /* Candyman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Candyman.h; sourceTree = "<group>"; };
 		1A72065F2184DC1C00D8D474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A7206662184DD8E00D8D474 /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
-		1A7206682184E11E00D8D474 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		1A72066A2184E2EC00D8D474 /* String+Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
 		1A72066C2184FD6F00D8D474 /* Date+Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Components.swift"; sourceTree = "<group>"; };
 		1A72066E218501B100D8D474 /* String+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Formatting.swift"; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 				1A72065E2184DC1C00D8D474 /* Candyman.h */,
 				1A72065F2184DC1C00D8D474 /* Info.plist */,
 				1A7206662184DD8E00D8D474 /* AppInfo.swift */,
-				1A7206682184E11E00D8D474 /* Result.swift */,
 				1A72067A2185C8A600D8D474 /* Injectable.swift */,
 				1A72066C2184FD6F00D8D474 /* Date+Components.swift */,
 				1A7206802185CE8B00D8D474 /* Locale+Extension.swift */,
@@ -256,6 +253,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 1A7206512184DC1B00D8D474;
 			productRefGroup = 1A72065C2184DC1C00D8D474 /* Products */;
@@ -293,7 +291,6 @@
 				1A72067B2185C8A600D8D474 /* Injectable.swift in Sources */,
 				1A43762021DFFD3000C6A52B /* UIView+Inspectable.swift in Sources */,
 				1AF2733721E613D5005DA9D6 /* UIGestureRecognizer+Remove.swift in Sources */,
-				1A7206692184E11E00D8D474 /* Result.swift in Sources */,
 				1A43761E21DFFC9100C6A52B /* UIView+Animation.swift in Sources */,
 				1AF2733521E610A9005DA9D6 /* UIStackView+Subview.swift in Sources */,
 				1A7206812185CE8B00D8D474 /* Locale+Extension.swift in Sources */,
