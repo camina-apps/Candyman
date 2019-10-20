@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A0DD7CE235CB00B00B2EFEB /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0DD7CD235CB00B00B2EFEB /* Shared.swift */; };
 		1A43761C21DFFB0500C6A52B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A43761B21DFFB0500C6A52B /* UIView+Extension.swift */; };
 		1A43761E21DFFC9100C6A52B /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A43761D21DFFC9100C6A52B /* UIView+Animation.swift */; };
 		1A43762021DFFD3000C6A52B /* UIView+Inspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A43761F21DFFD3000C6A52B /* UIView+Inspectable.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A0DD7CD235CB00B00B2EFEB /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
 		1A43761B21DFFB0500C6A52B /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		1A43761D21DFFC9100C6A52B /* UIView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
 		1A43761F21DFFD3000C6A52B /* UIView+Inspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Inspectable.swift"; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				1A72066C2184FD6F00D8D474 /* Date+Components.swift */,
 				1A7206802185CE8B00D8D474 /* Locale+Extension.swift */,
 				1AEAF3A8235C8AFF0015D207 /* TypedNotifications.swift */,
+				1A0DD7CD235CB00B00B2EFEB /* Shared.swift */,
 				1AEAF3AC235C8E570015D207 /* CoreData */,
 				1A7206822185D86700D8D474 /* String Exension */,
 				1A72069A21860E7600D8D474 /* UIKit Extension */,
@@ -322,6 +325,7 @@
 				1AF2733321E60EFA005DA9D6 /* UIButton+Title.swift in Sources */,
 				1A7206672184DD8E00D8D474 /* AppInfo.swift in Sources */,
 				1AEAF386235C81850015D207 /* Data+DeviceToken.swift in Sources */,
+				1A0DD7CE235CB00B00B2EFEB /* Shared.swift in Sources */,
 				1A43762421E002B100C6A52B /* UILabel+Extension.swift in Sources */,
 				1A72067521850A2000D8D474 /* UIViewController+Child.swift in Sources */,
 				1AEAF3AE235C8E660015D207 /* CoreDataStack.swift in Sources */,

@@ -8,9 +8,9 @@
 
 import Foundation
 
-class BaseOperation : Operation {
+public class BaseOperation : Operation {
 
-    override var isAsynchronous: Bool {
+    public override var isAsynchronous: Bool {
         return true
     }
 
@@ -23,7 +23,7 @@ class BaseOperation : Operation {
         }
     }
 
-    override var isExecuting: Bool {
+    public override var isExecuting: Bool {
         return _executing
     }
 
@@ -37,20 +37,20 @@ class BaseOperation : Operation {
         }
     }
 
-    override var isFinished: Bool {
+    public override var isFinished: Bool {
         return _finished
     }
 
-    override func start() {
+    public override func start() {
         _executing = true
         execute()
     }
 
-    func execute() {
+    public func execute() {
         fatalError("You must override this")
     }
 
-    func finish() {
+    public func finish() {
         _executing = false
         _finished = true
     }
