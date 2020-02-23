@@ -12,12 +12,12 @@ public extension UIScreen {
  
     /// Screen width
     static var screenWidth: CGFloat {
-        return UIScreen.main.bounds.size.width
+        UIScreen.main.bounds.size.width
     }
     
     /// Screen height
     static var screenHeight: CGFloat {
-        return UIScreen.main.bounds.size.height
+        UIScreen.main.bounds.size.height
     }
 
 }

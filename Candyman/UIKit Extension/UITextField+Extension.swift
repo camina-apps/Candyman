@@ -12,7 +12,7 @@ public extension UITextField {
     
     /// A Boolean value indicating whether a text field has text input
     var isEmpty: Bool {
-        return text?.isEmpty == true
+        text?.isEmpty == true
     }
     
     /// Clears text

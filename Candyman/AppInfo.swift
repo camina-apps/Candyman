@@ -16,19 +16,19 @@ public struct AppInfo {
     }
 
     public static var name: String {
-        return AppInfo.bundle("CFBundleName")
+        AppInfo.bundle("CFBundleName")
     }
 
     public static var version: String {
-        return AppInfo.bundle("CFBundleShortVersionString")
+        AppInfo.bundle("CFBundleShortVersionString")
     }
 
     public static var build: String {
-        return AppInfo.bundle("CFBundleVersion")
+        AppInfo.bundle("CFBundleVersion")
     }
 
     public static var bundleId: String {
-        return AppInfo.bundle("CFBundleIdentifier")
+        AppInfo.bundle("CFBundleIdentifier")
     }
 
 }

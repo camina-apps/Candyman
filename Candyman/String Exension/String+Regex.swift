@@ -16,7 +16,7 @@ public enum Regex: String {
     case HtmlTag = "^<[^>]+>$"
 
     var pattern: String {
-        return rawValue
+        rawValue
     }
 }
 
