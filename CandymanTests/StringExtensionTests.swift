@@ -13,9 +13,9 @@ class StringExtensionTests: XCTestCase {
 
     func testBase64() {
         let candymanBase64 = "Q2FuZHltYW4="
-        XCTAssertEqual(candymanBase64.fromBase64(), "Candyman", "decode base64 string is wrong")
-        XCTAssertEqual("Candyman".toBase64(), candymanBase64, "encode to base64 string is wrong")
-        XCTAssertNil("Not a base64 string".fromBase64())
+        XCTAssertEqual(candymanBase64.base64Decoded(), "Candyman", "decode base64 string is wrong")
+        XCTAssertEqual("Candyman".base64Encoded(), candymanBase64, "encode to base64 string is wrong")
+        XCTAssertNil("Not a base64 string".base64Decoded())
     }
 
     func testEmptyOrWhitespace() {

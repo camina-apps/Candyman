@@ -21,16 +21,16 @@ public protocol StoryboardInitializable {
 public extension StoryboardInitializable where Self : UIViewController {
 
     static var storyboardName: String {
-        return "Main"
+        "Main"
     }
 
     static var storyboardBundle: Bundle? {
-        return nil
+        nil
     }
 
     /// convention is class name as Identifier
     static var storyboardIdentifier: String {
-        return String(describing: self)
+        String(describing: self)
     }
 
     static func makeFromStoryboard() -> Self {
@@ -39,7 +39,7 @@ public extension StoryboardInitializable where Self : UIViewController {
     }
 
     func embedInNavigationController() -> UINavigationController {
-        return embedInNavigationController(navBarClass: nil)
+        embedInNavigationController(navBarClass: nil)
     }
 
     func embedInNavigationController(navBarClass: AnyClass?) -> UINavigationController {

@@ -11,7 +11,7 @@ import Foundation
 public class BaseOperation : Operation {
 
     public override var isAsynchronous: Bool {
-        return true
+        true
     }
 
     private var _executing = false {
@@ -24,7 +24,7 @@ public class BaseOperation : Operation {
     }
 
     public override var isExecuting: Bool {
-        return _executing
+        _executing
     }
 
     private var _finished = false {
@@ -38,7 +38,7 @@ public class BaseOperation : Operation {
     }
 
     public override var isFinished: Bool {
-        return _finished
+        _finished
     }
 
     public override func start() {

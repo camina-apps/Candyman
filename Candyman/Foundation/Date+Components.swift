@@ -10,8 +10,9 @@ import Foundation
 
 public extension Date {
 
+    /// Returns the value for the component of a date.
     func component(_ component: Calendar.Component) -> Int {
-        return Calendar.current.component(component, from: self)
+        Calendar.current.component(component, from: self)
     }
 
 }
