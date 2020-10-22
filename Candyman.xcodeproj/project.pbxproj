@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1A0DD7CE235CB00B00B2EFEB /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0DD7CD235CB00B00B2EFEB /* Shared.swift */; };
+		1A2816FB2541ED380046D430 /* DateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2816FA2541ED380046D430 /* DateTests.swift */; };
+		1A2816FF2541FB170046D430 /* URLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2816FE2541FB170046D430 /* URLTests.swift */; };
+		1A281705254200740046D430 /* ButtonTitleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A281704254200740046D430 /* ButtonTitleTests.swift */; };
+		1A281709254202B80046D430 /* UIStackViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A281708254202B80046D430 /* UIStackViewTests.swift */; };
+		1A28170D254205C00046D430 /* GestureRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A28170C254205C00046D430 /* GestureRecognizerTests.swift */; };
+		1A29F96A24CDF1E1001DC0F6 /* DateFormatter+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A29F96924CDF1E1001DC0F6 /* DateFormatter+Common.swift */; };
+		1A29F96C24CDF248001DC0F6 /* DateComponents+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A29F96B24CDF248001DC0F6 /* DateComponents+Compare.swift */; };
+		1A29F96E24CDFAE8001DC0F6 /* NSPredicate+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A29F96D24CDFAE8001DC0F6 /* NSPredicate+Common.swift */; };
 		1A418FDF2402FA1A001D1E71 /* Bundle+File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A418FDE2402FA1A001D1E71 /* Bundle+File.swift */; };
 		1A418FE22402FBCB001D1E71 /* URL+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A418FE12402FBCB001D1E71 /* URL+String.swift */; };
 		1A43761C21DFFB0500C6A52B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A43761B21DFFB0500C6A52B /* UIView+Extension.swift */; };
@@ -15,6 +23,8 @@
 		1A43762021DFFD3000C6A52B /* UIView+Inspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A43761F21DFFD3000C6A52B /* UIView+Inspectable.swift */; };
 		1A43762221E0017E00C6A52B /* UIScreen+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A43762121E0017E00C6A52B /* UIScreen+Size.swift */; };
 		1A43762421E002B100C6A52B /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A43762321E002B100C6A52B /* UILabel+Extension.swift */; };
+		1A4D4B6E2540893800B7CA35 /* UserDefaults+Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D4B6D2540893800B7CA35 /* UserDefaults+Generics.swift */; };
+		1A4D4B72254089DA00B7CA35 /* UserDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D4B71254089DA00B7CA35 /* UserDefaultsTests.swift */; };
 		1A7206602184DC1C00D8D474 /* Candyman.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A72065E2184DC1C00D8D474 /* Candyman.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A7206672184DD8E00D8D474 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7206662184DD8E00D8D474 /* AppInfo.swift */; };
 		1A72066B2184E2EC00D8D474 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A72066A2184E2EC00D8D474 /* String+Regex.swift */; };
@@ -56,6 +66,14 @@
 
 /* Begin PBXFileReference section */
 		1A0DD7CD235CB00B00B2EFEB /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		1A2816FA2541ED380046D430 /* DateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTests.swift; sourceTree = "<group>"; };
+		1A2816FE2541FB170046D430 /* URLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLTests.swift; sourceTree = "<group>"; };
+		1A281704254200740046D430 /* ButtonTitleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTitleTests.swift; sourceTree = "<group>"; };
+		1A281708254202B80046D430 /* UIStackViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewTests.swift; sourceTree = "<group>"; };
+		1A28170C254205C00046D430 /* GestureRecognizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRecognizerTests.swift; sourceTree = "<group>"; };
+		1A29F96924CDF1E1001DC0F6 /* DateFormatter+Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Common.swift"; sourceTree = "<group>"; };
+		1A29F96B24CDF248001DC0F6 /* DateComponents+Compare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateComponents+Compare.swift"; sourceTree = "<group>"; };
+		1A29F96D24CDFAE8001DC0F6 /* NSPredicate+Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSPredicate+Common.swift"; sourceTree = "<group>"; };
 		1A418FDE2402FA1A001D1E71 /* Bundle+File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+File.swift"; sourceTree = "<group>"; };
 		1A418FE12402FBCB001D1E71 /* URL+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+String.swift"; sourceTree = "<group>"; };
 		1A43761B21DFFB0500C6A52B /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
@@ -63,6 +81,8 @@
 		1A43761F21DFFD3000C6A52B /* UIView+Inspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Inspectable.swift"; sourceTree = "<group>"; };
 		1A43762121E0017E00C6A52B /* UIScreen+Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Size.swift"; sourceTree = "<group>"; };
 		1A43762321E002B100C6A52B /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		1A4D4B6D2540893800B7CA35 /* UserDefaults+Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Generics.swift"; sourceTree = "<group>"; };
+		1A4D4B71254089DA00B7CA35 /* UserDefaultsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsTests.swift; sourceTree = "<group>"; };
 		1A72065B2184DC1C00D8D474 /* Candyman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Candyman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A72065E2184DC1C00D8D474 /* Candyman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Candyman.h; sourceTree = "<group>"; };
 		1A72065F2184DC1C00D8D474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -118,11 +138,14 @@
 			isa = PBXGroup;
 			children = (
 				1AEAF3AA235C8D680015D207 /* BaseOperation.swift */,
-				1A418FE12402FBCB001D1E71 /* URL+String.swift */,
 				1A418FDE2402FA1A001D1E71 /* Bundle+File.swift */,
 				1AEAF385235C81850015D207 /* Data+Coding.swift */,
 				1A72066C2184FD6F00D8D474 /* Date+Components.swift */,
+				1A29F96B24CDF248001DC0F6 /* DateComponents+Compare.swift */,
+				1A29F96924CDF1E1001DC0F6 /* DateFormatter+Common.swift */,
 				1A7206802185CE8B00D8D474 /* Locale+Extension.swift */,
+				1A418FE12402FBCB001D1E71 /* URL+String.swift */,
+				1A4D4B6D2540893800B7CA35 /* UserDefaults+Generics.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -176,6 +199,12 @@
 			isa = PBXGroup;
 			children = (
 				1A7206922185F4FE00D8D474 /* StringExtensionTests.swift */,
+				1A28170C254205C00046D430 /* GestureRecognizerTests.swift */,
+				1A281708254202B80046D430 /* UIStackViewTests.swift */,
+				1A281704254200740046D430 /* ButtonTitleTests.swift */,
+				1A2816FE2541FB170046D430 /* URLTests.swift */,
+				1A2816FA2541ED380046D430 /* DateTests.swift */,
+				1A4D4B71254089DA00B7CA35 /* UserDefaultsTests.swift */,
 				1A7206962186021700D8D474 /* ChildViewControllerTests.swift */,
 				1A720698218605F700D8D474 /* NavigationControllerTests.swift */,
 				1A72068B2185F4A700D8D474 /* Info.plist */,
@@ -209,6 +238,7 @@
 		1AEAF3AC235C8E570015D207 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				1A29F96D24CDFAE8001DC0F6 /* NSPredicate+Common.swift */,
 				1AEAF3AD235C8E660015D207 /* CoreDataStack.swift */,
 			);
 			path = CoreData;
@@ -338,6 +368,8 @@
 				1AF2732D21E54DE9005DA9D6 /* UITextView+Extension.swift in Sources */,
 				1A7206712185084900D8D474 /* UIScrollView+Scrolling.swift in Sources */,
 				1AF2733321E60EFA005DA9D6 /* UIButton+Title.swift in Sources */,
+				1A29F96C24CDF248001DC0F6 /* DateComponents+Compare.swift in Sources */,
+				1A29F96E24CDFAE8001DC0F6 /* NSPredicate+Common.swift in Sources */,
 				1A7206672184DD8E00D8D474 /* AppInfo.swift in Sources */,
 				1AEAF386235C81850015D207 /* Data+Coding.swift in Sources */,
 				1A0DD7CE235CB00B00B2EFEB /* Shared.swift in Sources */,
@@ -345,7 +377,9 @@
 				1A72067521850A2000D8D474 /* UIViewController+Child.swift in Sources */,
 				1AEAF3AE235C8E660015D207 /* CoreDataStack.swift in Sources */,
 				1A72066B2184E2EC00D8D474 /* String+Regex.swift in Sources */,
+				1A29F96A24CDF1E1001DC0F6 /* DateFormatter+Common.swift in Sources */,
 				1A7206792185C2DF00D8D474 /* StoryboardInitializable.swift in Sources */,
+				1A4D4B6E2540893800B7CA35 /* UserDefaults+Generics.swift in Sources */,
 				1A43761C21DFFB0500C6A52B /* UIView+Extension.swift in Sources */,
 				1A72066F218501B100D8D474 /* String+Formatting.swift in Sources */,
 				1A72066D2184FD6F00D8D474 /* Date+Components.swift in Sources */,
@@ -362,9 +396,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A4D4B72254089DA00B7CA35 /* UserDefaultsTests.swift in Sources */,
+				1A2816FF2541FB170046D430 /* URLTests.swift in Sources */,
 				1A7206932185F4FE00D8D474 /* StringExtensionTests.swift in Sources */,
+				1A281709254202B80046D430 /* UIStackViewTests.swift in Sources */,
+				1A28170D254205C00046D430 /* GestureRecognizerTests.swift in Sources */,
 				1A7206972186021700D8D474 /* ChildViewControllerTests.swift in Sources */,
+				1A281705254200740046D430 /* ButtonTitleTests.swift in Sources */,
 				1A720699218605F700D8D474 /* NavigationControllerTests.swift in Sources */,
+				1A2816FB2541ED380046D430 /* DateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

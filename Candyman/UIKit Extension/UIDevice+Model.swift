@@ -11,16 +11,16 @@ import UIKit
 public extension UIDevice {
 
     class var isPhone: Bool {
-        return UIDevice().userInterfaceIdiom == .phone
+        UIDevice().userInterfaceIdiom == .phone
     }
 
     class var  isPad: Bool {
-        return UIDevice().userInterfaceIdiom == .pad
+        UIDevice().userInterfaceIdiom == .pad
     }
     
     /// An alphanumeric string that uniquely identifies a device to the app’s vendor
     class var idForVendor: String? {
-        return UIDevice.current.identifierForVendor?.uuidString
+        UIDevice.current.identifierForVendor?.uuidString
     }
 
 }

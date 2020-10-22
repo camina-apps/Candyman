@@ -14,7 +14,7 @@ public extension UITableView {
     ///
     /// - Parameter name: UITableViewCell type
     /// - Returns: UITableViewCell object with associated class name.
-    func dequeueReusableCell<T: UITableViewCell>(withClass name: T.Type) -> T {
+    func dequeueReusableCell<T: UITableViewCell>(forClass name: T.Type) -> T {
         guard let cell = dequeueReusableCell(withIdentifier: String(describing: name)) as? T else {
             fatalError("Couldn't find UITableViewCell for \(String(describing: name))")
         }
@@ -27,7 +27,7 @@ public extension UITableView {
     ///   - name: UITableViewCell type.
     ///   - indexPath: location of cell in tableView.
     /// - Returns: UITableViewCell object with associated class name.
-    func dequeueReusableCell<T: UITableViewCell>(withClass name: T.Type, for indexPath: IndexPath) -> T {
+    func dequeueReusableCell<T: UITableViewCell>(forClass name: T.Type, for indexPath: IndexPath) -> T {
         guard let cell = dequeueReusableCell(withIdentifier: String(describing: name), for: indexPath) as? T else {
             fatalError("Couldn't find UITableViewCell for \(String(describing: name))")
         }
@@ -38,7 +38,7 @@ public extension UITableView {
     ///
     /// - Parameter name: UITableViewHeaderFooterView type
     /// - Returns: UITableViewHeaderFooterView object with associated class name.
-    func dequeueReusableHeaderFooterView<T: UITableViewHeaderFooterView>(withClass name: T.Type) -> T {
+    func dequeueReusableHeaderFooterView<T: UITableViewHeaderFooterView>(forClass name: T.Type) -> T {
         guard let headerFooterView = dequeueReusableHeaderFooterView(withIdentifier: String(describing: name)) as? T else {
             fatalError("Couldn't find UITableViewHeaderFooterView for \(String(describing: name))")
         }
