@@ -36,7 +36,7 @@ public extension UIViewController {
             UIView.animate(withDuration: 0.5, animations: {
                 newViewController.view.alpha = 1
                 oldViewController.view.alpha = 0
-            }) { (finished) in
+            }) { finished in
                 oldViewController.removeFromContainer()
             }
         } else {

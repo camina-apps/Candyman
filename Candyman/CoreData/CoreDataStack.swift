@@ -61,6 +61,19 @@ public class CoreDataStack {
         precondition(isLoaded)
         return persistentContainer.viewContext
     }
+    
+    /// Attempts to commit unsaved changes to registered objects to the context’s parent store.
+    public func saveMainContext() {
+        precondition(isLoaded)
+        guard mainContext.hasChanges else { return }
+        
+        do {
+            try mainContext.save()
+        } catch {
+            let nserror = error as NSError
+            NSLog("Unresolved error when trying to save MainContext: %@", nserror)
+        }
+    }
 
     /// Creates a private managed object context.
     public func newBackgroundContext() -> NSManagedObjectContext {

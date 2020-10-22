@@ -21,7 +21,7 @@ public extension UINavigationController {
     }
 
     var rootViewController: UIViewController? {
-        return viewControllers.first
+        viewControllers.first
     }
 
 }

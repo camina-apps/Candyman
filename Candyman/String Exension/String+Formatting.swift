@@ -12,7 +12,7 @@ public extension String {
     
     /// A Boolean value indicating whether a string has no characters or whitespace or newlines (Unicode General Category Z*, `U+000A ~ U+000D`, and `U+0085`)
     var isEmptyOrWhiteSpace: Bool {
-        return trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+        trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
     }
 
     /// Removes the `String` characters contained in Whitespace or newlines character set. (Unicode General Category Z*, `U+000A ~ U+000D`, and `U+0085`) at the end and beginning of the string
