@@ -26,7 +26,11 @@ class DateTests: XCTestCase {
     }
     
     func testReturnsHour() {
-        XCTAssertEqual(date.component(.hour), 10)
+        var components = DateComponents()
+        components.hour = 8
+        components.minute = 0
+        let date = Calendar.current.date(from: components) ?? Date()
+        XCTAssertEqual(date.component(.hour), 8)
     }
     
     func testDateReturnsMinute() {
