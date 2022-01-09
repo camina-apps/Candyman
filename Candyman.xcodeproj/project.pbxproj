@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A0DD7CE235CB00B00B2EFEB /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0DD7CD235CB00B00B2EFEB /* Shared.swift */; };
 		1A2816FB2541ED380046D430 /* DateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2816FA2541ED380046D430 /* DateTests.swift */; };
 		1A2816FF2541FB170046D430 /* URLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2816FE2541FB170046D430 /* URLTests.swift */; };
 		1A281705254200740046D430 /* ButtonTitleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A281704254200740046D430 /* ButtonTitleTests.swift */; };
@@ -43,10 +42,12 @@
 		1A7206972186021700D8D474 /* ChildViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7206962186021700D8D474 /* ChildViewControllerTests.swift */; };
 		1A720699218605F700D8D474 /* NavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A720698218605F700D8D474 /* NavigationControllerTests.swift */; };
 		1A906949255F369000654825 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A906948255F369000654825 /* NetworkMonitor.swift */; };
+		1AA4C908278B14B20064AD09 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA4C907278B14B20064AD09 /* PersistenceController.swift */; };
+		1AA4C90A278B14C30064AD09 /* NSManagedObjectContext+Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA4C909278B14C30064AD09 /* NSManagedObjectContext+Save.swift */; };
+		1AA4C90C278B16A80064AD09 /* ServiceLocater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA4C90B278B16A80064AD09 /* ServiceLocater.swift */; };
 		1AEAF386235C81850015D207 /* Data+Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAF385235C81850015D207 /* Data+Coding.swift */; };
 		1AEAF3A9235C8AFF0015D207 /* TypedNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAF3A8235C8AFF0015D207 /* TypedNotifications.swift */; };
 		1AEAF3AB235C8D680015D207 /* BaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAF3AA235C8D680015D207 /* BaseOperation.swift */; };
-		1AEAF3AE235C8E660015D207 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAF3AD235C8E660015D207 /* CoreDataStack.swift */; };
 		1AF2732D21E54DE9005DA9D6 /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2732C21E54DE9005DA9D6 /* UITextView+Extension.swift */; };
 		1AF2732F21E54E5F005DA9D6 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2732E21E54E5F005DA9D6 /* UITextField+Extension.swift */; };
 		1AF2733121E55099005DA9D6 /* UITableView+Reuseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2733021E55099005DA9D6 /* UITableView+Reuseable.swift */; };
@@ -66,7 +67,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A0DD7CD235CB00B00B2EFEB /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
 		1A2816FA2541ED380046D430 /* DateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTests.swift; sourceTree = "<group>"; };
 		1A2816FE2541FB170046D430 /* URLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLTests.swift; sourceTree = "<group>"; };
 		1A281704254200740046D430 /* ButtonTitleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTitleTests.swift; sourceTree = "<group>"; };
@@ -105,10 +105,12 @@
 		1A7206962186021700D8D474 /* ChildViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewControllerTests.swift; sourceTree = "<group>"; };
 		1A720698218605F700D8D474 /* NavigationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerTests.swift; sourceTree = "<group>"; };
 		1A906948255F369000654825 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		1AA4C907278B14B20064AD09 /* PersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		1AA4C909278B14C30064AD09 /* NSManagedObjectContext+Save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Save.swift"; sourceTree = "<group>"; };
+		1AA4C90B278B16A80064AD09 /* ServiceLocater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocater.swift; sourceTree = "<group>"; };
 		1AEAF385235C81850015D207 /* Data+Coding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Coding.swift"; sourceTree = "<group>"; };
 		1AEAF3A8235C8AFF0015D207 /* TypedNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypedNotifications.swift; sourceTree = "<group>"; };
 		1AEAF3AA235C8D680015D207 /* BaseOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseOperation.swift; sourceTree = "<group>"; };
-		1AEAF3AD235C8E660015D207 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		1AF2732C21E54DE9005DA9D6 /* UITextView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
 		1AF2732E21E54E5F005DA9D6 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		1AF2733021E55099005DA9D6 /* UITableView+Reuseable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Reuseable.swift"; sourceTree = "<group>"; };
@@ -180,7 +182,7 @@
 				1A906948255F369000654825 /* NetworkMonitor.swift */,
 				1A418FE02402FB6B001D1E71 /* Foundation */,
 				1AEAF3A8235C8AFF0015D207 /* TypedNotifications.swift */,
-				1A0DD7CD235CB00B00B2EFEB /* Shared.swift */,
+				1AA4C90B278B16A80064AD09 /* ServiceLocater.swift */,
 				1AEAF3AC235C8E570015D207 /* CoreData */,
 				1A7206822185D86700D8D474 /* String Exension */,
 				1A72069A21860E7600D8D474 /* UIKit Extension */,
@@ -241,8 +243,9 @@
 		1AEAF3AC235C8E570015D207 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				1AA4C907278B14B20064AD09 /* PersistenceController.swift */,
 				1A29F96D24CDFAE8001DC0F6 /* NSPredicate+Common.swift */,
-				1AEAF3AD235C8E660015D207 /* CoreDataStack.swift */,
+				1AA4C909278B14C30064AD09 /* NSManagedObjectContext+Save.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -375,16 +378,17 @@
 				1A29F96E24CDFAE8001DC0F6 /* NSPredicate+Common.swift in Sources */,
 				1A7206672184DD8E00D8D474 /* AppInfo.swift in Sources */,
 				1AEAF386235C81850015D207 /* Data+Coding.swift in Sources */,
-				1A0DD7CE235CB00B00B2EFEB /* Shared.swift in Sources */,
+				1AA4C90A278B14C30064AD09 /* NSManagedObjectContext+Save.swift in Sources */,
 				1A43762421E002B100C6A52B /* UILabel+Extension.swift in Sources */,
 				1A72067521850A2000D8D474 /* UIViewController+Child.swift in Sources */,
-				1AEAF3AE235C8E660015D207 /* CoreDataStack.swift in Sources */,
+				1AA4C90C278B16A80064AD09 /* ServiceLocater.swift in Sources */,
 				1A72066B2184E2EC00D8D474 /* String+Regex.swift in Sources */,
 				1A29F96A24CDF1E1001DC0F6 /* DateFormatter+Common.swift in Sources */,
 				1A7206792185C2DF00D8D474 /* StoryboardInitializable.swift in Sources */,
 				1A4D4B6E2540893800B7CA35 /* UserDefaults+Generics.swift in Sources */,
 				1A43761C21DFFB0500C6A52B /* UIView+Extension.swift in Sources */,
 				1A72066F218501B100D8D474 /* String+Formatting.swift in Sources */,
+				1AA4C908278B14B20064AD09 /* PersistenceController.swift in Sources */,
 				1A906949255F369000654825 /* NetworkMonitor.swift in Sources */,
 				1A72066D2184FD6F00D8D474 /* Date+Components.swift in Sources */,
 				1AEAF3A9235C8AFF0015D207 /* TypedNotifications.swift in Sources */,
