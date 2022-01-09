@@ -10,9 +10,14 @@ import Foundation
 
 public extension String {
     
-    /// A Boolean value indicating whether a string has no characters or whitespace or newlines (Unicode General Category Z*, `U+000A ~ U+000D`, and `U+0085`)
-    var isEmptyOrWhiteSpace: Bool {
+    /// Returns true if this string is empty or only contains whitespace characters.
+    var isEmptyOrBlank: Bool {
         trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+    }
+    
+    //Returns true if this string is not empty and contains some characters except of whitespace characters.
+    var isNotBlank: Bool {
+        !trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
     }
 
     /// Removes the `String` characters contained in Whitespace or newlines character set. (Unicode General Category Z*, `U+000A ~ U+000D`, and `U+0085`) at the end and beginning of the string

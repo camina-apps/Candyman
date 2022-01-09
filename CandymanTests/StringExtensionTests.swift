@@ -18,15 +18,26 @@ class StringExtensionTests: XCTestCase {
         XCTAssertNil("Not a base64 string".base64Decoded())
     }
 
-    func testEmptyOrWhitespace() {
+    func testEmptyOrBlank() {
         let whitespaceString = " "
-        XCTAssertTrue(whitespaceString.isEmptyOrWhiteSpace, "didn't not detect whitespace")
+        XCTAssertTrue(whitespaceString.isEmptyOrBlank, "didn't not detect whitespace")
 
         let emptyString = ""
-        XCTAssertTrue(emptyString.isEmptyOrWhiteSpace, "didn't not detect empty string")
+        XCTAssertTrue(emptyString.isEmptyOrBlank, "didn't not detect empty string")
 
         let notEmptyString = " test "
-        XCTAssertFalse(notEmptyString.isEmptyOrWhiteSpace, "didn't detect not empty string")
+        XCTAssertFalse(notEmptyString.isEmptyOrBlank, "didn't detect not empty string")
+    }
+    
+    func testIsNotBlank() {
+        let whitespaceString = " "
+        XCTAssertFalse(whitespaceString.isNotBlank, "didn't not detect whitespace string")
+        
+        let whitespaceAndChar = " foo "
+        XCTAssertTrue(whitespaceAndChar.isNotBlank, "didn't not detect mixed string")
+
+        let emptyString = ""
+        XCTAssertFalse(emptyString.isNotBlank, "didn't not detect empty string")
     }
 
     func testTrim() {
