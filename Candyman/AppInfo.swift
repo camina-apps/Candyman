@@ -11,7 +11,7 @@ import UIKit
 public struct AppInfo {
 
     private static func bundle(_ key: String) -> String {
-        let info = Bundle.main.infoDictionary?[key] as? String
+        let info = Bundle.main.infoDictionary![key] as? String
         return info ?? ""
     }
 
