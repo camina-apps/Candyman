@@ -15,10 +15,6 @@ import Foundation
 // https://en.wikipedia.org/wiki/Service_locator_pattern
 
 
-protocol ServiceLocater {
-    static var persistenceController: PersistenceController { get }
-    static var engine: Engine { get }
-}
 
 class MyAppServiceLocater: ServiceLocater {
     // use for single instances ( Singletons)
@@ -26,17 +22,27 @@ class MyAppServiceLocater: ServiceLocater {
     // or
     static var engineSingleton: Engine = V8()
     
-    // if you want a everytime a fresh instance use the getter overwrite and return an new instance
+    // if you want everytime a fresh instance, use the getter overwrite and return an new instance
     static var engine: Engine { V8() }
+    
+    // if you need to pass values for constructor use a function
+    static func inlineEngine(cylinders: Int) -> Engine {
+        SpecificInlineEngine(cylinders: cylinders)
+    }
 }
 
+
+// Use a protocol ServiceLocater to switch out implementations in your test target
+protocol ServiceLocater {
+    static var persistenceController: PersistenceController { get }
+    static var engine: Engine { get }
+}
 
 // use Mocks and other classes in your Tests
 class TestServiceLocater: ServiceLocater {
     static var persistenceController: PersistenceController = PersistenceController.preview
     static var engine: Engine { V8Mock() }
 }
-
 
 
 
@@ -49,6 +55,13 @@ protocol Engine {
 struct V8: Engine {
     func start() {
         // start the engine woohhrrr
+    }
+}
+
+struct SpecificInlineEngine: Engine {
+    let cylinders: Int
+    func start() {
+        // start the engine weehm
     }
 }
 
